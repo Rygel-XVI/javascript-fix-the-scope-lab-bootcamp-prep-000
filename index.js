@@ -29,4 +29,3 @@ var funkyFunction = function() {
 console.log(funkyFunction.function())
 
 var theFunk = funkyFunction.function()
-var theFunk = 
