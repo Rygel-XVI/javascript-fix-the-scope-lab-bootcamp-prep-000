@@ -19,6 +19,7 @@ function add2(n) {
 }
 
 var funkyFunction = function() {
+  console.log('not funky')
   return function() {
     console.log("funky")
     return "FUNKY!"
@@ -27,4 +28,4 @@ var funkyFunction = function() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction.function()
+var theFunk = funkyFunction
